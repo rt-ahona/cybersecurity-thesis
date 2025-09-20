@@ -1,22 +1,73 @@
-# Byte-compiled / cache files
+# ====================
+# Python
+# ====================
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.pyc
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
 
-# Virtual environment
+# ====================
+# Virtual environments
+# ====================
 .env
+.venv/
 venv/
 ENV/
-env/
+env.bak/
+venv.bak/
 
-# Logs
-*.log
-
-# Jupyter Notebook checkpoints
+# ====================
+# Jupyter Notebook
+# ====================
 .ipynb_checkpoints
+*.ipynb_convert
 
+# ====================
+# Logs & temp files
+# ====================
+*.log
+*.out
+*.tmp
+*.swp
+
+# ====================
+# Datasets & models
+# ====================
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.pt
+*.pth
+*.onnx
+datasets/
+models/
+
+# ====================
 # OS-specific
+# ====================
 .DS_Store
 Thumbs.db
+
+# ====================
+# VSCode / IDE settings
+# ====================
+.vscode/
+.idea/
+*.code-workspace
